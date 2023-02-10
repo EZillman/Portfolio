@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,21 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evelina Zillman</title>
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <script src="https://kit.fontawesome.com/086edfea1a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Source+Code+Pro&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Evelina Zillman</h1>
 
-        <ul>
-            <li>About me</li>
-            <li>Skills</li>
-            <li>Projects</li>
-        </ul>
+        <input type="checkbox" class="check-btn" id="checkBtn" aria-label="hamburger menu">
+        <button class="menu-btn" aria-label="hamburger menu">
+            <span class="fa-solid fa-bars fa-3x" id="hamburger"></span>
+        </button>
+
+        <nav>
+            <a href="">About me</a>
+            <a href="">Skills</a>
+            <a href="">Projects</a>
+        </nav>
 
     </header>
 
     <section class="landing">
-        <img>
+        <img src="assets/evelinazillman.jpg" alt="Evelina" aria-label="Evelina" height="100" width="90">
 
         <h2>Aspiring Front End Developer</h2>
 
@@ -31,7 +40,10 @@
         <h2>About me</h2>
 
         <div>
-            <p></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Rerum, quibusdam iure et ab neque unde veritatis quod aut autem, 
+                dolor nemo at nisi explicabo quia, sunt aliquid placeat exercitationem fugit.
+            </p>
         </div>
 
     </section>
@@ -39,6 +51,27 @@
 
     <section class="skills">
         <h2>Skills</h2>
+
+        <div>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Sass</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+            </ul>
+        </div>
+
+
+        <div>
+            <ul>
+                <li>Github</li>
+                <li>VS Code</li>
+                <li>Figma</li>
+                <li>React</li>
+                <li>Vue</li>
+            </ul>
+        </div>
 
     </section>
 
@@ -51,6 +84,13 @@
 
     <footer>
         <h3>Get in touch!</h3>
+
+        <ul>
+            <a href="">Number</a>
+            <a href="">Mail</a>
+            <a href="">Linkedin</a>
+            <a href="">Github</a>
+        </ul>
 
     </footer>
     
