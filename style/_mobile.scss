@@ -104,7 +104,7 @@ nav {
         position: absolute;
         content: '';
         background: rgb(180,41,98);
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.221) 30%, rgba(180,41,98,1) 100%);
+        background: linear-gradient(0deg, rgba(96,158,162,1) 30%, rgba(180,41,98,1) 100%);
         margin-top: 4.8rem;
         height: 12.87rem;
         width: 11.6rem;
@@ -218,14 +218,23 @@ nav {
 
 footer {
     background-color: #609EA2;
+    text-align: center;
 
     ul {
         margin-bottom: 0;
-
+        list-style-type: none;
+        padding-left: 0;
 
         a {
             text-decoration: none;
             color: #1E1E1E;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            color: #B42962;
+            font-size: 1.3rem;
         }
     }
 }
