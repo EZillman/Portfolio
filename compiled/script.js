@@ -9,4 +9,5 @@ function toggleMenu() {
     console.log(menu);
 }
 ;
+checkBtn === null || checkBtn === void 0 ? void 0 : checkBtn.addEventListener('change', toggleMenu);
 //# sourceMappingURL=script.js.map

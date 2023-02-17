@@ -9,3 +9,6 @@ function toggleMenu() {
 
     console.log(menu);
 };
+
+
+checkBtn?.addEventListener('change', toggleMenu);
