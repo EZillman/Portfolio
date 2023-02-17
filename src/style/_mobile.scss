@@ -66,6 +66,7 @@ nav {
     height: 100vh;
     width: 100vw;
     left: 100%;
+    transition: 0.3s;
 
     a {
         text-decoration: none;
@@ -86,6 +87,10 @@ nav {
         color: #B42962;
         background-color: #1E1E1E;
     }
+}
+
+nav.show-menu {
+    left: 0;
 }
 
 
