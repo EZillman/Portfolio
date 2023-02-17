@@ -71,13 +71,14 @@ nav {
     a {
         text-decoration: none;
         text-align: center;
-        background-color: #79b3b7;
+        background: rgb(96,158,162);
+        background: linear-gradient(266deg, rgba(96,158,162,1) 0%, rgba(180,41,98,1) 100%);
         color: #1E1E1E;
         font-size: 2.25rem;
         margin: 0 auto 1rem auto;
         padding: 1.5rem;
         border: 0.2rem #B42962 solid;
-        border-radius: 1.5rem;
+        border-radius: 2rem;
         width: 70%;
         cursor: pointer;
         transition: 0.3s;
