@@ -66,17 +66,19 @@ nav {
     height: 100vh;
     width: 100vw;
     left: 100%;
+    transition: 0.3s;
 
     a {
         text-decoration: none;
         text-align: center;
-        background-color: #79b3b7;
+        background: rgb(96,158,162);
+        background: linear-gradient(266deg, rgba(96,158,162,1) 0%, rgba(180,41,98,1) 100%);
         color: #1E1E1E;
         font-size: 2.25rem;
         margin: 0 auto 1rem auto;
         padding: 1.5rem;
         border: 0.2rem #B42962 solid;
-        border-radius: 1.5rem;
+        border-radius: 2rem;
         width: 70%;
         cursor: pointer;
         transition: 0.3s;
@@ -86,6 +88,10 @@ nav {
         color: #B42962;
         background-color: #1E1E1E;
     }
+}
+
+nav.show-menu {
+    left: 0;
 }
 
 
@@ -104,7 +110,7 @@ nav {
         position: absolute;
         content: '';
         background: rgb(180,41,98);
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.221) 30%, rgba(180,41,98,1) 100%);
+        background: linear-gradient(0deg, rgba(96,158,162,1) 30%, rgba(180,41,98,1) 100%);
         margin-top: 4.8rem;
         height: 12.87rem;
         width: 11.6rem;
@@ -218,14 +224,23 @@ nav {
 
 footer {
     background-color: #609EA2;
+    text-align: center;
 
     ul {
         margin-bottom: 0;
-
+        list-style-type: none;
+        padding-left: 0;
 
         a {
             text-decoration: none;
             color: #1E1E1E;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            color: #B42962;
+            font-size: 1.3rem;
         }
     }
 }
