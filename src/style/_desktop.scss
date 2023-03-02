@@ -87,3 +87,31 @@ nav.show-menu {
         line-height: 3rem;
     }
 }
+
+//-----------------------------------------
+//------------------PROJECTS---------------
+//-----------------------------------------
+
+.projects {
+    height: 100vh;
+
+    .projects-wrapper {
+        flex-direction: row;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    img {
+        height: 12.5rem;
+        width: 23.75rem;
+        transition: 0.3s;
+    }
+
+    img:hover {
+        height: 13.75rem;
+        width: 26.12rem;
+        
+    }
+}

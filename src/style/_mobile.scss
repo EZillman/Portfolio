@@ -212,10 +212,22 @@ nav.show-menu {
 //-----------------------------------------
 
 .projects {
-    height: 100vh;
+    height: 150vh;
 
     h2 {
         margin: auto auto 2rem auto;
+    }
+
+    .projects-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    p {
+        color: #609EA2;
+        text-align: center;
     }
 }
 
